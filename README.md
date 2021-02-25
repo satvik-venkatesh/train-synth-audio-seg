@@ -9,7 +9,7 @@ Machine learning models for audio segmentation and music-speech detection are ge
 - Synthetic training sets outperform real-world datasets in some cases and serve as a promising alternative.
 
 # Description
-The file [train-set-synthesis.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-set-synthesis.ipynb) contains the code for artificially synthesising data. The synthesised data can be stored in your personal Google Drive. The file [train-CRNN.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-CRNN.ipynb) contains the code to train a Convolutional Recurrent Neural Network on the synthesised data. 
+The file [train-set-synthesis.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-set-synthesis.ipynb) contains the code for artificially synthesising data. The synthesised data can be stored in your personal Google Drive. [hp-opt.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/hp-opt.ipynb) contains code for hyperparameter tuning using Keras Tuner. The file [train-CRNN.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-CRNN.ipynb) contains the code to train a Convolutional Recurrent Neural Network on the synthesised data. 
 
 A few synthetic examples are available in the [Synthetic Radio Examples](https://github.com/satvik-venkatesh/audio-seg-data-synth/tree/main/Synthetic%20Radio%20Examples) folder.
 
