@@ -1,0 +1,40 @@
+Event based metrics (onset-offset)
+========================================
+  Evaluated length                  : 25488.66 sec
+  Evaluated files                   : 8 
+  Evaluate onset                    : True 
+  Evaluate offset                   : True 
+  T collar                          : 500.00 ms
+  Offset (length)                   : 50.00 %
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 17.62 %
+    Precision                       : 20.62 %
+    Recall                          : 15.38 %
+  Error rate
+    Error rate (ER)                 : 1.44 
+    Substitution rate               : 0.00 
+    Deletion rate                   : 0.85 
+    Insertion rate                  : 0.59 
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 16.26 %
+    Precision                       : 19.49 %
+    Recall                          : 14.41 %
+  Error rate
+    Error rate (ER)                 : 1.55 
+    Deletion rate                   : 0.86 
+    Insertion rate                  : 0.70 
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    |
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ |
+    music        | 117     126   | 11.5%    11.1%    12.0%  | 1.84     0.88     0.96   |
+    speech       | 273     165   | 21.0%    27.9%    16.8%  | 1.27     0.83     0.44   |
+
