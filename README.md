@@ -4,8 +4,8 @@ Training Set Synthesis for Audio Segmentation and Classification of Music and Sp
 Machine learning models for audio segmentation and music-speech detection are generally trained on proprietary audio, which cannot be shared. Labelling this data is time-consuming and expensive, which discourages new researchers in this field. In this paper, we artificially synthesise data that resembles radio signals by replicating the workflow of a radio DJ. 
 
 # Results
-- Convolutional Recurrent Neural Networks (CRNN) performs better than CNN, B-GRU, B-LSTM, and non-causal Temporal Convolutional Network (TCN)
-- There needs to be sufficient loudness difference (LDs) between speech and background music for intelligibility of speech. Machine learning models and humans show similar preferences of LDs
+- Convolutional Recurrent Neural Networks (CRNN) performs better than CNN, B-GRU, B-LSTM, and non-causal Temporal Convolutional Network (TCN).
+- There needs to be sufficient loudness difference (LD) between speech and background music for intelligibility of speech. Machine learning models and humans show similar preferences of LDs.
 - Synthetic training sets outperform real-world datasets in some cases and serve as a promising alternative.
 
 # Description
