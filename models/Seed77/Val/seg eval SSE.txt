@@ -1,0 +1,47 @@
+Segment based metrics
+========================================
+  Evaluated length                  : 25489.02 sec
+  Evaluated files                   : 8 
+  Segment length                    : 10.00 ms
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 93.13 %
+    Precision                       : 98.03 %
+    Recall                          : 88.70 %
+  Error rate
+    Error rate (ER)                 : 0.13 
+    Substitution rate               : 0.01 
+    Deletion rate                   : 0.11 
+    Insertion rate                  : 0.01 
+  Accuracy
+    Sensitivity                     : 88.70 %
+    Specificity                     : 97.79 %
+    Balanced accuracy               : 93.25 %
+    Accuracy                        : 92.76 %
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 93.33 %
+    Precision                       : 98.04 %
+    Recall                          : 89.10 %
+  Error rate
+    Error rate (ER)                 : 0.13 
+    Deletion rate                   : 0.11 
+    Insertion rate                  : 0.02 
+  Accuracy
+    Sensitivity                     : 89.10 %
+    Specificity                     : 97.69 %
+    Balanced accuracy               : 93.39 %
+    Accuracy                        : 92.76 %
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    | Sens     Spec     Bacc     Acc     
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ | ------   ------   ------   ------  
+    music        | 159..   139.. | 91.6%    98.0%    86.0%  | 0.16     0.14     0.02   | 86.0%    97.0%    91.5%    90.2%   
+    speech       | 122..   115.. | 95.0%    98.1%    92.2%  | 0.10     0.08     0.02   | 92.2%    98.3%    95.3%    95.4%   
+
