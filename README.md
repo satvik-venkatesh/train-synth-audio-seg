@@ -3,10 +3,26 @@ Investigating the Effects of Training Set Synthesis for Audio Segmentation of Ra
 
 Machine learning models for audio segmentation and music-speech detection are generally trained on proprietary audio, which cannot be shared. Labelling this data is time-consuming and expensive, which discourages new researchers in this field. In this paper, we artificially synthesise data that resembles radio signals by replicating the workflow of a radio DJ. 
 
+```BibTeX
+@Article{electronics10070827,
+AUTHOR = {Venkatesh, Satvik and Moffat, David and Miranda, Eduardo Reck},
+TITLE = {Investigating the Effects of Training Set Synthesis for Audio Segmentation of Radio Broadcast},
+JOURNAL = {Electronics},
+VOLUME = {10},
+YEAR = {2021},
+NUMBER = {7},
+ARTICLE-NUMBER = {827},
+URL = {https://www.mdpi.com/2079-9292/10/7/827},
+ISSN = {2079-9292},
+DOI = {10.3390/electronics10070827}
+}
+```
+
 # Results
 - Convolutional Recurrent Neural Networks (CRNN) performs better than CNN, B-GRU, B-LSTM, and non-causal Temporal Convolutional Network (TCN).
 - There needs to be sufficient loudness difference (LD) between speech and background music for intelligibility of speech. Machine learning models and humans show similar preferences of LDs.
 - Synthetic training sets outperform real-world datasets in some cases and serve as a promising alternative.
+
 
 # Description
 The file [train-set-synthesis.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-set-synthesis.ipynb) contains the code for artificially synthesising data. The synthesised data can be stored in your personal Google Drive. [hp-opt.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/hp-opt.ipynb) contains code for hyperparameter tuning using Keras Tuner. The file [train-CRNN.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/train-CRNN.ipynb) contains the code to train a Convolutional Recurrent Neural Network on the synthesised data. The file [mk-prediction.ipynb](https://github.com/satvik-venkatesh/train-synth-audio-seg/blob/main/mk-prediction.ipynb) performs segmentation over audio files using pre-trained models.
