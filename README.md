@@ -1,7 +1,7 @@
 # train-synth-audio-seg
-Investigating the Effects of Training Set Synthesis for Audio Segmentation of Radio Broadcast. Accepted for publication by MDPI Electronics Special Issue "Machine Learning Applied to Music/Audio Signal Processing"
+Investigating the Effects of Training Set Synthesis for Audio Segmentation of Radio Broadcast. Published in MDPI Electronics Special Issue "Machine Learning Applied to Music/Audio Signal Processing" [Open Access](https://www.mdpi.com/2079-9292/10/7/827)
 
-Machine learning models for audio segmentation and music-speech detection are generally trained on proprietary audio, which cannot be shared. Labelling this data is time-consuming and expensive, which discourages new researchers in this field. In this paper, we artificially synthesise data that resembles radio signals by replicating the workflow of a radio DJ. 
+Machine learning models for audio segmentation and music-speech detection are generally trained on proprietary audio, which cannot be shared. Labelling this data is time-consuming and expensive, which discourages new researchers in this field. In this paper, we address the challenges encountered in automatically synthesising data that resembles a radio broadcast. 
 
 ```BibTeX
 @Article{electronics10070827,
